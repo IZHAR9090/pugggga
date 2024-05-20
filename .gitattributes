@@ -1,0 +1,9 @@
+*. filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+web/* filter=lfs diff=lfs merge=lfs -text
+StreamingAssets/web/* filter=lfs diff=lfs merge=lfs -text
+StreamingAssets/aa/WebGL/* filter=lfs diff=lfs merge=lfs -text
+ServerData/WebGL/* filter=lfs diff=lfs merge=lfs -text
+StreamingAssets/aa/WebGL/circuit_mp_maps_assets_assets/bundleassets/circuit_mp_maps/* filter=lfs diff=lfs merge=lfs -text
+StreamingAssets/aa/WebGL/drag_mp_maps_assets_assets/bundleassets/drag_mp_maps/* filter=lfs diff=lfs merge=lfs -text
+StreamingAssets/aa/WebGL/drift_mp_maps_assets_assets/bundleassets/drift_mp_maps/* filter=lfs diff=lfs merge=lfs -text
